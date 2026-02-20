@@ -12,6 +12,12 @@ Simply run the program using `cargo run`. You may pass the following arguments.
 | `-f --fmt`     | `"Code: {{short_code}}"` | The formatted line to append to the output file.                                                             |
 | `-t --timeout` | `5`                      | The HTTPS request timeout in seconds.                                                                        |
 
+Run with arguments.
+
+```bash
+cargo run -- -f "Short Code: {{short_code}}"
+```
+
 ## Credits
 
 - [Christian Deacon](https://github.com/gamemann)
