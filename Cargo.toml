@@ -1,5 +1,5 @@
 [package]
-name = "tmc-flag-export"
+name = "tmc-srv-flag-importer"
 version = "0.1.0"
 edition = "2024"
 
